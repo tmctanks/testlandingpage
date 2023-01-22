@@ -4,14 +4,25 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: column;
   }
 img {
     width:200px;
 }
+
+.logo {
+    height:30px;
+    width:auto;
+}
+
 ul {
     text-decoration: none;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
 }
 
 .header {
@@ -21,4 +32,53 @@ ul {
     background: #1f2937;
     color: white;
     font: roboto;
+    padding: 8px;
+    height:30px;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+    font: roboto;
+    padding: 8px;
+    height:30px;
+    display:flex;
+    justify-content:center;
+}
+
+.subtext {
+    background:#1f2937;
+    font: roboto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display:flex;
+    flex-direction:column;
+}
+
+.testimonial {
+    background: #E5E7EB;
+    display:flex;
+    justify-content:center;
+}
+.signup {
+    display:flex;
+    justify-content:center;
+}
+.modal {
+    background:#3882F6;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    display:flex;
+    flex-flow: column wrap;
 }
