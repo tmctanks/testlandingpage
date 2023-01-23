@@ -6,8 +6,10 @@ body {
     flex-direction: column;
     justify-content: column;
   }
-img {
+.card-img {
     width:200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 .logo {
@@ -52,6 +54,9 @@ ul {
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    padding: 60px 300px;
+    gap: 40px
 }
 
 .content {
@@ -70,15 +75,96 @@ ul {
 }
 .modal {
     background:#3882F6;
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.modal-text {
+    display:flex;
+    flex-direction:column;
+    color: white;
+    font-size: 18px;
+}
+.call {
+    font-weight: 900px;
+}
+
+.signup2{
+    background: #3882F6;
+    color: white;
+    font-size: 18px;
+
 }
 .cards{
     display:flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
+    justify-content: center;
+    gap: 20px
 }
 
 .card {
     width: 200px;
     display:flex;
     flex-flow: column wrap;
+    padding-bottom: 20px;
+}
+
+.first-head {
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.sub {
+    font-size:18px;
+    color: #1f2937;
+    width:200px;
+    display:flex;
+    flex-flow: row wrap;
+}
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+button.signup {
+    background: #3882f6;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.qoute {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 600px;
+}
+.creator {
+    font-weight: 900px;
 }
